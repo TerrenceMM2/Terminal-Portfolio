@@ -31,7 +31,7 @@ $(document).ready(() => {
                     history.enable();
                 }
             }, {
-                prompt: "Do you like the site? "
+                prompt: "Do you like the site? (y/n) "
             });
         }
     }, {
@@ -39,24 +39,5 @@ $(document).ready(() => {
     });
 
     term.echo("Type [[b;#00FF41;#222]help] for a list of available commands.\n")
-
-    // $('<body>').terminal(function (command, term) {
-    //     if (command == 'foo') {
-    //         var history = term.history();
-    //         history.disable();
-    //         term.push(function (command) {
-    //             if (command.match(/^(y|yes)$/i)) {
-    //                 term.echo('execute your command here');
-    //                 term.pop();
-    //                 history.enable();
-    //             } else if (command.match(/^(n|no)$/i)) {
-    //                 term.pop();
-    //                 history.enable();
-    //             }
-    //         }, {
-    //             prompt: 'Are you sure? '
-    //         });
-    //     }
-    // });
 
 });
