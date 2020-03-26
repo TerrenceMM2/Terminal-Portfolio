@@ -1,0 +1,15 @@
+body.full-screen-terminal {
+    width: 80%;
+    margin: auto;
+    background: #222;
+    letter-spacing: 0.125em;
+}
+
+[data-index="0"] {
+    text-align: center;
+}
+
+.terminal {
+    --color: #00FF41;
+    --background: #222;
+}
